@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Encripte e Desencripte!</title>
+</head>
+<body>
+    <main>
+    <section class="div-textarea">
+        <textarea class="textarea" cols="20" rows="15" placeholder="Digite seu texto..."></textarea>
+        <div>
+           
+        <button class="btn-texto"><span class="material-symbols-outlined">
+            north
+            </span>Apenas minúsculas e sem acento<span class="material-symbols-outlined">
+                north
+                </span></button>
+        </div>
+    </section>
+
+    <section class="centro">
+        <img class='logo' src="img/logo.png" alt="Logo Decodificador">
+        <div>
+            <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+        </div>
+    </section>
+
+    <section class="div-mensagem">
+            <textarea id='cap_msg' class="mensagem" cols="20" rows="15" placeholder="Nenhuma mensagem encontrada..."></textarea>
+            <div>
+                <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+            </div>    
+    </section>
+    
+    </main>
+    <footer>
+         <p class="copyright">&copy; MazoTech Produções</p>
+         <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5571987495677"><img 
+            src="/img/wapp.jpg" style="height:40px;" data-selector="img"></a>
+          <a href="https://www.instagram.com/invites/contact/?i=1uuz835ry6n55&utm_content=2wbaws1"><img 
+            src="/img/instagram.jpg" style="height:40px;" data-selector="img"></a>
+            <a href="https://www.linkedin.com/in/elidomarsantos/"><img 
+                src="/img/linkedin.png" style="height:40px;" data-selector="img"></a>
+    </footer>
+    <script src='script.js'></script>
+</body>
+</html>
